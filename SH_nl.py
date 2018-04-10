@@ -19,6 +19,7 @@ hound=Text(my_corpus.words('hound_of_baskerville.txt'))
 #hound.dispersion_plot(["Stapleton", "Henry", "Barrymore"])
 
 #ne_chunk: name chunk ; pos_tag: part of speech ; word_tokenize: chunking
+import nltk
 from nltk import ne_chunk, pos_tag, word_tokenize
 from nltk.tree import Tree
 from collections import Counter
