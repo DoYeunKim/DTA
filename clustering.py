@@ -12,7 +12,7 @@ documents = ["We can easily forgive a child who is afraid of the dark; the real 
    	"Happiness is the meaning and the purpose of life, the whole aim and end of human existence.",
 	"Patience is bitter, but its fruit is sweet."]
 
-titles = ["Plato-1", "Plato-2", "Plato-3", "PLato-4", "Plato-5", "Aristotle-6", "Aristotle-7", "Aristotle-8", "Aristotle-9"]
+titles = ["Plato-1", "Plato-2", "Plato-3", "Plato-4", "Plato-5", "Aristotle-6", "Aristotle-7", "Aristotle-8", "Aristotle-9"]
 
 def get_top_terms_per_cluster(num_of_terms, num_of_k, model_param, vectorizer_param):
 	print("Top terms per cluster: ")

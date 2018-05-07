@@ -31,7 +31,7 @@ def create_dendrogram(tfidf_model_param, titles_param):
     from scipy.cluster.hierarchy import ward, dendrogram
     import matplotlib
     matplotlib.use('Agg')
-    import matplotlib.pyplot as plt
+	import matplotlib.pyplot as plt
 
     dist = 1 - cosine_similarity(tfidf_model_param)
     linkage_matrix = ward(dist) #define the linkage_matrix using ward clustering pre-computed distances
